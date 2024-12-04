@@ -1,0 +1,48 @@
+/*CREATE TABLE Books (
+    BookID INT PRIMARY KEY,
+    Title VARCHAR(100),
+    Author VARCHAR(50),
+    PublishedYear INT
+);
+
+ALTER TABLE Books
+ADD ISBN VARCHAR(13);
+
+ALTER TABLE Books
+DROP COLUMN PublishedYear;
+
+CREATE TABLE Students (StudentID INT PRIMARY KEY, Name VARCHAR(50), Age INT, Grade CHAR(1));
+
+
+SELECT Name
+FROM Students
+WHERE Age > 15;
+INSERT INTO Students (StudentID, Name, Age, Grade)
+VALUES (104, 'Tom ', 15, 'C');
+
+UPDATE Students
+SET Grade = 'A+'
+WHERE Name = 'Myy';
+
+DELETE FROM Students
+WHERE Grade = 'C';
+
+BEGIN TRANSACTION;
+INSERT INTO Orders(OrderID, ProductID, Quantity) VALUES (201, 105, 2);
+UPDATE Inventory SET Quantity = Quantity - 2 WHERE ProductID = 105;
+ROLLBACK;
+
+CREATE TABLE Customerss (CustomerID INT PRIMARY KEY, Name VARCHAR(50), Email VARCHAR(50), Phone VARCHAR(15));
+
+INSERT INTO Customerss (CustomerID, Name, Email, Phone) VALUES (201, 'Emily Clark', 'emily@example.com', '1234567890');
+GRANT SELECT ON Customerss TO AdminUser;
+ROLLBACK;*/
+
+
+
+
+
+
+
+
+
